@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
     <title>Constitution</title>
 </head>
 <body>
@@ -28,14 +30,18 @@
         <a href="#ninth">Ninth Amendment</a>
         <a href="#tenth">Tenth Amendment</a>
     </nav>
+    
+    <div class="image"></div>
 
     <div class="content">
         <header>
             <h1>Constitution App</h1>
         </header>
 
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+
         <section id="preamble">
-            <h2>The Preample</h2>
+            <h2>The Preamble</h2>
             <p>We the People of the United States, in Order to form a more perfect Union, establish
                 Justice, insure domestic Tranquility, provide for the common defence, promote the
                 general Welfare, and secure the Blessings of Liberty to ourselves and our Posterity,
