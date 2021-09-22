@@ -7,6 +7,54 @@ body {
   margin: 0;
 }
 
+section {
+  padding: 30px;
+  line-height: 30px;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+  margin-top: 25px;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 56px;
+  font-style: italic;
+  text-align: center;
+  padding: 40px;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 32px;
+  width: 100%; 
+  text-align: center; 
+  border-bottom: 1px solid #000; 
+  line-height: 0.1em;
+  /*margin: 10px 0 20px; 
+  padding-bottom: 15px; */
+}
+
+h2 span { 
+  background:#fff; 
+  padding:0 10px; 
+}
+
+h4 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  font-size: 22px;
+  font-style: italic;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
 /* Style the side navigation */
 .sidenav {
   height: 100%;
@@ -43,6 +91,10 @@ body {
   position: relative;
   z-index: 2;
   height: 100%;
+}
+
+.container {
+  min-height: 300px;
 }
 
 .image {
