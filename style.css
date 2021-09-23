@@ -137,3 +137,21 @@ body::-webkit-scrollbar-thumb {
     border-radius: 20px;
     border: 1px solid black;
 }
+
+#popup-window {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  z-index: 2000;
+}
+
+#popup {
+  background-color: gray;
+  max-width: 50%;
+  text-align: center;
+  margin: auto;
+  margin-top: 400px;
+}
