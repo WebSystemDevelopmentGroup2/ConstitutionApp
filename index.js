@@ -9,7 +9,7 @@ $(document).ready(() => {
     var content = $(this).parent().parent().next();
     
     $("#popup-content").html(content.html());
-    $("#popup-title").text(content.attr("popup-title"));
+    $("#popup-title").text(content.attr("data-popup-title"));
     $("#popup-window").show();
   });
 
