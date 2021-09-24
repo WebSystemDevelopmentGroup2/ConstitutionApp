@@ -99,7 +99,7 @@ p {
 }
 
 .image {
-  background: url("img_parallax.jpg") no-repeat fixed;
+  background: url("images/img_parallax.jpg") no-repeat fixed;
   background-position: center center;
   background-size: cover;
   min-height: 500px;
@@ -140,28 +140,52 @@ body::-webkit-scrollbar-thumb {
 
 #popup-window {
   position: fixed;
-  height: 100%;
+  height: 200%;
   width: 100%;
   top: 0;
   left: 0;
   text-align: center;
-  z-index: 2000;
+  z-index: 1000;
   
 }
 
 #popup {
   background-color: rgb(225, 239, 241);
-  max-width: 25%;
+  max-width: 40%;
+  max-height: 70%;
   text-align: center;
   font-size: 22px;
   margin: auto;
-  margin-top: 400px;
+  margin-top: 100px;
   border: 3px solid #000000;
   border-radius: 10px;
 }
-#popup-img{
-  
-  background-position: center center;
-  border-radius: 50%;
 
+#popup-img{
+
+  max-width: 90%;
+  height: auto;
+  border-radius: 10%;
+
+}
+
+#close-popup {
+  border: 1px solid black;
+  outline: none; /* Remove outline */
+  background-color: rgb(161, 55, 67); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px;
+}
+  
+#close-popup:hover {
+  background-color: rgb(56, 6, 6); /* Add a dark-grey background on hover */
+}
+
+#popup-text{
+  font-family: 'Times New Roman', 'serif';
+  margin-left: 10px;
+  margin-right: 10px;
 }
