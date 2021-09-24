@@ -10,11 +10,11 @@ $(document).ready(() => {
     
     $("#popup-content").html(content.html());
     $("#popup-title").text(content.attr("data-popup-title"));
-    $("#popup-window").show();
+    $("#popup-window").show(500);
   });
 
   $("#close-popup").click(function() {
-    $(this).parent().parent().hide();
+    $(this).parent().parent().hide(500);
   })
 });
 
