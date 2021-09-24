@@ -161,7 +161,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 10px;
 }
 
-#popup-img{
+.popup-img {
 
   max-width: 90%;
   height: auto;
@@ -184,7 +184,7 @@ body::-webkit-scrollbar-thumb {
   background-color: rgb(56, 6, 6); /* Add a dark-grey background on hover */
 }
 
-#popup-text{
+.popup-text {
   font-family: 'Times New Roman', 'serif';
   margin-left: 10px;
   margin-right: 10px;
